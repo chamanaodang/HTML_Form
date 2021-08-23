@@ -11,25 +11,33 @@
 
 <body>
     <center>
-        <form>
+        <form align="left">
             <h1>Create Account</h1>
-            <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
-            <input type="text" name="lastname" id="lastname" placeholder="lastname" required>
-            <input type="email" name="email" id="email" placeholder="Your Email" required>
-            <input type="password" name="password" id="password" placeholder="Password" required>
-            <input type="password" name="password_re" id="password_re" placeholder="Re-password" required>
+            <div class="singleline">
+                <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+                <input type="text" name="lastname" id="lastname" placeholder="lastname" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <input type="password" name="password_re" id="password_re" placeholder="Re-password" required>
 
-            <label>Birth Day</label>
+            </div>  
+            <br>
+            <label >Birth Day</label>
             <input type="date" name="birthday" id="birthday" required>
+            <br><br>
+
             <input type="radio" name="male" id="male" value="male" checked>
             <label>Male</label>
-            <input type="radio" name="female" id="female"" value=" female"" checked>
+            <input type="radio" name="female" id="female"" value=" female" checked>
             <label>Female"</label>
-
-            <font size="2">
-                By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>
-            </font>
-            <input type="submit" value="Resgister">
+            <br><br>
+            <div>
+                <font size="2">
+                    By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>
+                </font>
+                <br><br>
+                <input type="submit" value="Resgister">
+            </div>
         </form>
     </center>
 </body>
